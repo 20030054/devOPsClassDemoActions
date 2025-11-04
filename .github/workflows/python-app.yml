@@ -26,10 +26,10 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t malijutt/pythonactionapp:latest .
+        docker build -t malijutt/devopsdemo:latest .
       # Replace 'your-dockerhub-username/your-image-name' with your Docker Hub username and image name
 
     - name: Push Docker image to Docker Hub
       run: |
-        docker push malijutt/pythonactionapp:latest
+        docker push malijutt/devopsdemo:latest
       # Replace 'your-dockerhub-username/your-image-name' with your Docker Hub username and image name
